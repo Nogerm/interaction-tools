@@ -65,6 +65,11 @@ export default () => {
     const reset = function () {
         setIsFlipped1(false);
         setIsFlipped2(false);
+
+        setShowResult(false);
+        setResultContent("");
+        setHistory([]);
+        setSuccessRate(0);
     }
 
     const handleHelp = function () {
@@ -113,8 +118,8 @@ export default () => {
     return (
         <>
             <div className="vh-100 d-flex flex-column">
-                <Row style={{ padding: 16 }}>
-                    {/* <Button onClick={reset} variant="secondary">新的一天</Button> */}
+                <Row style={{ padding: 16, flexDirection: "row", justifyContent: 'center' }}>
+                    <Button onClick={reset} variant="secondary" style={{ width: "20vw" }}>重置</Button>
                 </Row>
                 <Row lg={true} style={{ height: "65vh", alignItems: "center" }}>
                     <Col lg={3}>
