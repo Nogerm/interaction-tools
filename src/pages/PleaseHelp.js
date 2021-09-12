@@ -83,7 +83,8 @@ export default () => {
         console.log(history);
         setHistory(history);
 
-        reset();
+        setIsFlipped1(false);
+        setIsFlipped2(false);
     }
 
     const handleNotHelp = function () {
@@ -97,7 +98,8 @@ export default () => {
         console.log(history);
         setHistory(history);
 
-        reset();
+        setIsFlipped1(false);
+        setIsFlipped2(false);
     }
 
     const showModal = function () {
