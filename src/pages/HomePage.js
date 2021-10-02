@@ -18,6 +18,7 @@ import NotFoundPage from "./examples/NotFound";
 import ServerError from "./examples/ServerError";
 import TrainDecision from './TrainDecision';
 import PleaseHelp from './PleaseHelp';
+import KeepSecret from './KeepSecret';
 
 // documentation pages
 import DocsOverview from "./documentation/DocsOverview";
@@ -106,6 +107,7 @@ export default () => (
     <RouteWithSidebar exact path={Routes.Settings.path} component={Settings} />
     <RouteWithSidebar exact path={Routes.TrainDecision.path} component={TrainDecision} />
     <RouteWithSidebar exact path={Routes.PleaseHelp.path} component={PleaseHelp} />
+    <RouteWithSidebar exact path={Routes.KeepSecret.path} component={KeepSecret} />
     <RouteWithSidebar exact path={Routes.BootstrapTables.path} component={BootstrapTables} />
 
     {/* components */}

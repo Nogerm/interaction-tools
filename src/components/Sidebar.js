@@ -4,7 +4,7 @@ import SimpleBar from 'simplebar-react';
 import { useLocation } from "react-router-dom";
 import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSubway, faHandsHelping, faSignOutAlt, faTimes, faCalendarAlt, faMapPin, faInbox, faRocket } from "@fortawesome/free-solid-svg-icons";
+import { faSubway, faHandsHelping, faQuestionCircle, faSignOutAlt, faTimes, faCalendarAlt, faMapPin, faInbox, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { Nav, Badge, Image, Button, Dropdown, Accordion, Navbar } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -101,6 +101,7 @@ export default (props = {}) => {
 
               <NavItem title="電車難題" icon={faSubway} link={Routes.TrainDecision.path} />
               <NavItem title="請幫幫忙" icon={faHandsHelping} link={Routes.PleaseHelp.path} />
+              <NavItem title="請保守秘密" icon={faQuestionCircle} link={Routes.KeepSecret.path} />
 
               {/* <CollapsableNavItem eventKey="examples/" title="Page Examples" icon={faFileAlt}>
                 <NavItem title="Sign In" link={Routes.Signin.path} />

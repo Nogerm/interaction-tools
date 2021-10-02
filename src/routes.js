@@ -7,6 +7,7 @@ export const Routes = {
     Settings: { path: "/settings" },
     TrainDecision: { path: "/traindecision" },
     PleaseHelp: { path: "/pleaseHelp" },
+    KeepSecret: { path: "/keepSecret" },
     Upgrade: { path: "/upgrade" },
     BootstrapTables: { path: "/tables/bootstrap-tables" },
     Billing: { path: "/examples/billing" },
