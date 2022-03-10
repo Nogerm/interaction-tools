@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/small_games/static/css/main.7433b92b.chunk.css",
-    "main.js": "/small_games/static/js/main.953b25b6.chunk.js",
-    "main.js.map": "/small_games/static/js/main.953b25b6.chunk.js.map",
+    "main.js": "/small_games/static/js/main.f71478e4.chunk.js",
+    "main.js.map": "/small_games/static/js/main.f71478e4.chunk.js.map",
     "runtime-main.js": "/small_games/static/js/runtime-main.86c2985b.js",
     "runtime-main.js.map": "/small_games/static/js/runtime-main.86c2985b.js.map",
     "static/css/2.aa5e7641.chunk.css": "/small_games/static/css/2.aa5e7641.chunk.css",
     "static/js/2.7a3278f4.chunk.js": "/small_games/static/js/2.7a3278f4.chunk.js",
     "static/js/2.7a3278f4.chunk.js.map": "/small_games/static/js/2.7a3278f4.chunk.js.map",
     "index.html": "/small_games/index.html",
-    "precache-manifest.9990d484d51cdd2f6f40a8855f4c1bab.js": "/small_games/precache-manifest.9990d484d51cdd2f6f40a8855f4c1bab.js",
+    "precache-manifest.ca4a33d06cd4f1f506fcd265ec2fd8f4.js": "/small_games/precache-manifest.ca4a33d06cd4f1f506fcd265ec2fd8f4.js",
     "service-worker.js": "/small_games/service-worker.js",
     "static/css/2.aa5e7641.chunk.css.map": "/small_games/static/css/2.aa5e7641.chunk.css.map",
     "static/css/main.7433b92b.chunk.css.map": "/small_games/static/css/main.7433b92b.chunk.css.map",
@@ -61,6 +61,6 @@
     "static/css/2.aa5e7641.chunk.css",
     "static/js/2.7a3278f4.chunk.js",
     "static/css/main.7433b92b.chunk.css",
-    "static/js/main.953b25b6.chunk.js"
+    "static/js/main.f71478e4.chunk.js"
   ]
 }

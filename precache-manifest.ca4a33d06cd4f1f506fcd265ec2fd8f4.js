@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c710d6f38ec91dae6738b475285015c4",
+    "revision": "eae06229785c23407bb299ddfe9bef2c",
     "url": "/small_games/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small_games/static/css/2.aa5e7641.chunk.css"
   },
   {
-    "revision": "e4f63b8879a801b41954",
+    "revision": "da142e1746b25f2940ce",
     "url": "/small_games/static/css/main.7433b92b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/small_games/static/js/2.7a3278f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4f63b8879a801b41954",
-    "url": "/small_games/static/js/main.953b25b6.chunk.js"
+    "revision": "da142e1746b25f2940ce",
+    "url": "/small_games/static/js/main.f71478e4.chunk.js"
   },
   {
     "revision": "cd5cbf895a80e22df6db",
