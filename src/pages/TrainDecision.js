@@ -17,64 +17,77 @@ export default () => {
   const [isDemo, setIsDemo] = useState(false);
 
   const adjPool = [
-    "嘲笑過你的",
-    "喜歡嘟嘴的",
     "扶老太太過馬路的",
-    "愛碎碎念的",
     "愛你的",
     "可以拯救世界的",
     "願意分你一半財產的",
-    "邪惡的",
-    "小氣的",
     "能實現你願望的",
     "有愛心的",
+    "準備要受洗的",
+    "睡著的",
+    "有三個孩子的",
+    "為你慶生的",
+    "世界上最後一個",
+    "愛說冷笑話的",
+    "從小一起長大的",
+    "友善的",
+    "曾經幫助過你的",
+    "常常請你吃飯的",
+  ];
+
+  const adjBadPool = [
+    "嘲笑過你的",
+    "喜歡嘟嘴的",
+    "愛碎碎念的",
+    "愛炫耀的",
     "開車不禮讓行人的",
     "欺負過你的",
-    "準備要受洗的",
     "有口臭的",
-    "睡著的",
-    "白目的",
     "只剩一天可以活的",
-    "有三個孩子的",
     "愛打人的",
-    "為你慶生的",
-    "會打呼的",
+    "滿嘴謊言的",
     "世界上最後一個",
     "正要跟你收房租的",
-    "愛說冷笑話的",
-    "剛出生的",
-    "咳嗽不摀住嘴巴的"
+    "咳嗽不摀住嘴巴的",
+    "跟你意見不合的",
+    "很機車的",
+    "囂張的",
+    "愛亂爆雷的",
+    "常在背後說你壞話的",
   ];
 
   const peoplePool = [
-    "同學",
-    "死刑犯",
     "家長",
     "網紅",
-    "乞丐",
     "億萬富翁",
-    "酸民",
     "你自己",
-    "你的爸爸媽媽",
-    //"你的小孩",
     "醫生",
     "超級英雄",
     "牧師",
     "老奶奶",
-    //"幼稚園兒童",
     "老師",
     "大學室友",
-    "陌生人",
-    "搶匪",
-    "新聞記者",
-    "一群黑道",
-    //"恐怖組織",
-    //"五歲小孩",
     "總統",
     "警察",
     "狗狗",
     "孕婦",
-    "科學家"
+    "科學家",
+    "舊情人",
+    "你的粉絲",
+  ];
+
+  const peopleBadPool = [
+    "死刑犯",
+    "酸民",
+    "陌生人",
+    "搶匪",
+    "新聞記者",
+    "一群黑道",
+    "外星人",
+    "馬路三寶",
+    "奸商",
+    "高調放閃情侶",
+    "詐騙集團",
   ];
 
   const getRndInteger = function (min, max) {
@@ -107,8 +120,8 @@ export default () => {
       if (isDemo) {
         setCard12content("耶穌");
       } else {
-        const idx = getRndInteger(0, peoplePool.length);
-        setCard12content(peoplePool[idx]);
+        const idx = getRndInteger(0, peopleBadPool.length);
+        setCard12content(peopleBadPool[idx]);
       }
     }
 
@@ -122,8 +135,8 @@ export default () => {
       if (isDemo) {
         setCard21content("很普通不一定很好的");
       } else {
-        const idx = getRndInteger(0, adjPool.length);
-        setCard21content(adjPool[idx]);
+        const idx = getRndInteger(0, adjBadPool.length);
+        setCard21content(adjBadPool[idx]);
       }
     }
 
